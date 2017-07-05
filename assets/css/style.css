@@ -1,0 +1,46 @@
+
+body {
+	background-color: #c0c5ce;
+	max-width: 100%;
+}
+
+.container {
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #65737e;
+	padding: 4%;
+}
+
+.row {
+	height: 5vh;
+}
+
+.container img {
+	max-width: 250px;
+	padding: 4px;
+}
+
+#elementos {
+	padding: 2%;
+}
+
+#elementos, .elemento {
+	border: 2px solid #c0c5ce;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	margin: 2%;
+}
+
+#elementos, .elemento a {
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	padding: 20px;
+	position: absolute;
+	top: 30%;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
